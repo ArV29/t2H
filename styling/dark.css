@@ -1,0 +1,41 @@
+/*
+dark bg color: 0C1821;
+primary bg color : #0C1821
+primary highlight color: #F4D35E
+secondary bg color : #0E79B2
+muted color : #BAACBD
+*/
+
+/* CSS HEX */
+/*
+--heliotrope-gray: #baacbdff;
+--rich-black-fogra-29: #0c1821ff;
+--orange-yellow-crayola: #f4d35eff;
+--sky-blue-crayola: #8ddbe0ff;
+--star-command-blue: #0e79b2ff;
+*/
+/*
+/* CSS HSL */
+/*
+--heliotrope-gray: hsla(289, 11%, 71%, 1);
+--rich-black-fogra-29: hsla(206, 47%, 9%, 1);
+--orange-yellow-crayola: hsla(47, 87%, 66%, 1);
+--sky-blue-crayola: hsla(184, 57%, 72%, 1);
+--star-command-blue: hsla(201, 85%, 38%, 1);
+*/
+
+body{
+    background: #0C1821;
+}
+
+#break0{
+    background-color: #8ddbe0ff;
+    width: 100%;
+    height: 1px;
+}
+.navigation td{
+    color:#f4d35eff;
+   padding-left: 2%;
+    padding-right: 2%;
+    width: max-content;
+}
