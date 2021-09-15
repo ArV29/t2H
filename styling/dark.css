@@ -15,18 +15,43 @@ muted color : #BAACBD
 --star-command-blue: #0e79b2ff;
 */
 
-body{
-    background: #0C1821;
+@font-face {
+    font-family: 'ArV';
+    src:url("../fonts/ArV.otf");
 }
 
-#break0{
-    background-color: #8ddbe0ff;
-    width: 100%;
-    height: 1px;
+
+body{
+  
+    background: #0C1821;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.navigation td{
+
+
+.header{
+    display: flex;
+    align-items: baseline;
     color:#f4d35eff;
-   padding-left: 2%;
-    padding-right: 2%;
-    width: max-content;
 }
+.header small{
+    margin-left: 10px;
+    color: #8ddbe0ff;
+}
+.mainInput {
+  width: 400px;
+  height: calc((29.7/21)*400px); /* A4 Ratio */
+  background-color: #f5f5f5;
+  font-size: 12px;
+  font-family: 'ArV';
+  line-height: 1.75em;
+  overflow-y: auto;
+  scrollbar-color: transparent;
+  scrollbar-width: thin;
+  padding-top:0.6em;
+  background-image: linear-gradient(#999 0.05em, transparent 0.1em);
+  background-size: 100% 1.75em;
+  background-attachment: local;
+}
+
